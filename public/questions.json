@@ -1,0 +1,1626 @@
+{
+    "questions": [
+        {
+            "id": "e1",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién escribió la carta a los Efesios mientras estaba en prisión?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Pedro"
+                },
+                {
+                    "id": "b",
+                    "text": "Pablo"
+                },
+                {
+                    "id": "c",
+                    "text": "Juan"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Efesios",
+                "chapter": 3,
+                "verse": "1",
+                "text": "Por esta causa yo Pablo, prisionero de Cristo Jesús por vosotros los gentiles."
+            }
+        },
+        {
+            "id": "e2",
+            "category": "EASY",
+            "type": "PLACE",
+            "question": "¿En qué monte recibió Moisés los Diez Mandamientos?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Monte Carmelo"
+                },
+                {
+                    "id": "b",
+                    "text": "Monte de los Olivos"
+                },
+                {
+                    "id": "c",
+                    "text": "Monte Sinaí"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Éxodo",
+                "chapter": 19,
+                "verse": "20",
+                "text": "Y descendió Jehová sobre el monte Sinaí, sobre la cumbre del monte; y llamó Jehová a Moisés a la cumbre del monte, y Moisés subió."
+            }
+        },
+        {
+            "id": "e3",
+            "category": "EASY",
+            "type": "QUOTE",
+            "question": "¿Quién dijo: 'Jehová es mi pastor, nada me faltará'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Moisés"
+                },
+                {
+                    "id": "b",
+                    "text": "Salomón"
+                },
+                {
+                    "id": "c",
+                    "text": "David"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Salmos",
+                "chapter": 23,
+                "verse": "1",
+                "text": "Jehová es mi pastor; nada me faltará."
+            }
+        },
+        {
+            "id": "e4",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién fue arrojado al foso de los leones en Babilonia?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Daniel"
+                },
+                {
+                    "id": "b",
+                    "text": "Ezequiel"
+                },
+                {
+                    "id": "c",
+                    "text": "Jeremías"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Daniel",
+                "chapter": 6,
+                "verse": "16",
+                "text": "Entonces el rey mandó, y trajeron a Daniel, y le echaron en el foso de los leones."
+            }
+        },
+        {
+            "id": "e5",
+            "category": "EASY",
+            "type": "PLACE",
+            "question": "¿Dónde fue bautizado Jesús?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Mar de Galilea"
+                },
+                {
+                    "id": "b",
+                    "text": "Río Jordán"
+                },
+                {
+                    "id": "c",
+                    "text": "Mar Muerto"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Mateo",
+                "chapter": 3,
+                "verse": "13,16",
+                "text": "Entonces Jesús vino de Galilea a Juan al Jordán, para ser bautizado por él... Y Jesús, después que fue bautizado, subió luego del agua."
+            }
+        },
+        {
+            "id": "e6",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién traicionó a Sansón revelando el secreto de su fuerza?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Rut"
+                },
+                {
+                    "id": "b",
+                    "text": "Raquel"
+                },
+                {
+                    "id": "c",
+                    "text": "Dalila"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Jueces",
+                "chapter": 16,
+                "verse": "17-19",
+                "text": "Le descubrió, pues, todo su corazón, y le dijo: Nunca a mi cabeza llegó navaja... Y viéndolo Dalila, que él le había descubierto todo su corazón... hizo dormir a Sansón sobre sus rodillas, y llamó a un hombre, quien le rapó las siete guedejas de su cabeza."
+            }
+        },
+        {
+            "id": "e7",
+            "category": "EASY",
+            "type": "QUOTE",
+            "question": "¿Quién dijo: 'Si pereciere, que perezca'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Rut"
+                },
+                {
+                    "id": "b",
+                    "text": "Ester"
+                },
+                {
+                    "id": "c",
+                    "text": "Sara"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Ester",
+                "chapter": 4,
+                "verse": "16",
+                "text": "Ve y reúne a todos los judíos que se hallan en Susa, y ayunad por mí... yo también con mis doncellas ayunaré igualmente, y entonces entraré a ver al rey, aunque no sea conforme a la ley; y si perezco, que perezca."
+            }
+        },
+        {
+            "id": "e8",
+            "category": "EASY",
+            "type": "PLACE",
+            "question": "¿En qué ciudad nació Jesús?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jerusalén"
+                },
+                {
+                    "id": "b",
+                    "text": "Nazaret"
+                },
+                {
+                    "id": "c",
+                    "text": "Belén"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Lucas",
+                "chapter": 2,
+                "verse": "4,6-7",
+                "text": "Y José subió de Galilea... a la ciudad de David, que se llama Belén... Y aconteció que estando ellos allí... Y dio a luz a su hijo primogénito."
+            }
+        },
+        {
+            "id": "e9",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el primer rey de Israel?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "David"
+                },
+                {
+                    "id": "b",
+                    "text": "Saúl"
+                },
+                {
+                    "id": "c",
+                    "text": "Salomón"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "1 Samuel",
+                "chapter": 10,
+                "verse": "24",
+                "text": "Samuel dijo a todo el pueblo: ¿Habéis visto al que ha elegido Jehová, que no hay semejante a él en todo el pueblo? Entonces el pueblo clamó con alegría, diciendo: ¡Viva el rey!"
+            }
+        },
+        {
+            "id": "e10",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién construyó el templo en Jerusalén?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Salomón"
+                },
+                {
+                    "id": "b",
+                    "text": "David"
+                },
+                {
+                    "id": "c",
+                    "text": "Saúl"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "1 Reyes",
+                "chapter": 6,
+                "verse": "1",
+                "text": "En el año cuatrocientos ochenta después que los hijos de Israel salieron de Egipto, el cuarto año del principio del reino de Salomón sobre Israel... comenzó él a edificar la casa de Jehová."
+            }
+        },
+        {
+            "id": "e11",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién fue llevado al cielo en un carro de fuego?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Moisés"
+                },
+                {
+                    "id": "b",
+                    "text": "Elías"
+                },
+                {
+                    "id": "c",
+                    "text": "Enoc"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "2 Reyes",
+                "chapter": 2,
+                "verse": "11",
+                "text": "Y aconteció que yendo ellos y hablando, he aquí un carro de fuego con caballos de fuego apartó a los dos; y Elías subió al cielo en un torbellino."
+            }
+        },
+        {
+            "id": "e12",
+            "category": "EASY",
+            "type": "QUOTE",
+            "question": "¿Quién dijo: 'Habla, Jehová, porque tu siervo oye'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "David"
+                },
+                {
+                    "id": "b",
+                    "text": "Elí"
+                },
+                {
+                    "id": "c",
+                    "text": "Samuel"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "1 Samuel",
+                "chapter": 3,
+                "verse": "10",
+                "text": "Y vino Jehová y se paró, y llamó como las otras veces: ¡Samuel, Samuel! Entonces Samuel dijo: Habla, porque tu siervo oye."
+            }
+        },
+        {
+            "id": "e13",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el padre de Juan el Bautista?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Zacarías"
+                },
+                {
+                    "id": "b",
+                    "text": "José"
+                },
+                {
+                    "id": "c",
+                    "text": "Simeón"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Lucas",
+                "chapter": 1,
+                "verse": "13",
+                "text": "Pero el ángel le dijo: Zacarías, no temas; porque tu oración ha sido oída, y tu mujer Elisabet te dará a luz un hijo, y llamarás su nombre Juan."
+            }
+        },
+        {
+            "id": "e14",
+            "category": "EASY",
+            "type": "PLACE",
+            "question": "¿En qué ciudad se encontraba Pablo cuando escribió la carta a los Filipenses?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jerusalén"
+                },
+                {
+                    "id": "b",
+                    "text": "Roma"
+                },
+                {
+                    "id": "c",
+                    "text": "Atenas"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Filipenses",
+                "chapter": 1,
+                "verse": "12-13",
+                "text": "Quiero que sepáis, hermanos, que las cosas que me han sucedido, han redundado más bien para el progreso del evangelio, de tal manera que mis prisiones se han hecho patentes en Cristo en todo el pretorio."
+            }
+        },
+        {
+            "id": "e15",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el primer mártir cristiano?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Pablo"
+                },
+                {
+                    "id": "b",
+                    "text": "Pedro"
+                },
+                {
+                    "id": "c",
+                    "text": "Esteban"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 7,
+                "verse": "59-60",
+                "text": "Y apedreaban a Esteban, mientras él invocaba y decía: Señor Jesús, recibe mi espíritu. Y puesto de rodillas, clamó a gran voz: Señor, no les tomes en cuenta este pecado. Y habiendo dicho esto, durmió."
+            }
+        },
+        {
+            "id": "e16",
+            "category": "EASY",
+            "type": "QUOTE",
+            "question": "¿Quién dijo: 'Tu pueblo será mi pueblo, y tu Dios mi Dios'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Rut"
+                },
+                {
+                    "id": "b",
+                    "text": "Ester"
+                },
+                {
+                    "id": "c",
+                    "text": "Noemí"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Rut",
+                "chapter": 1,
+                "verse": "16",
+                "text": "Respondió Rut: No me ruegues que te deje, y me aparte de ti; porque a dondequiera que tú fueres, iré yo, y dondequiera que vivieres, viviré. Tu pueblo será mi pueblo, y tu Dios mi Dios."
+            }
+        },
+        {
+            "id": "e17",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién fue convertido camino a Damasco?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Pedro"
+                },
+                {
+                    "id": "b",
+                    "text": "Bernabé"
+                },
+                {
+                    "id": "c",
+                    "text": "Saulo (Pablo)"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 9,
+                "verse": "3-4",
+                "text": "Mas yendo por el camino, aconteció que al llegar cerca de Damasco, repentinamente le rodeó un resplandor de luz del cielo; y cayendo en tierra, oyó una voz que le decía: Saulo, Saulo, ¿por qué me persigues?"
+            }
+        },
+        {
+            "id": "e18",
+            "category": "EASY",
+            "type": "PLACE",
+            "question": "¿En qué lugar permaneció Jonás tres días y tres noches?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "En una cueva"
+                },
+                {
+                    "id": "b",
+                    "text": "En el vientre de un gran pez"
+                },
+                {
+                    "id": "c",
+                    "text": "En un barco"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Jonás",
+                "chapter": 1,
+                "verse": "17",
+                "text": "Pero Jehová tenía preparado un gran pez que tragase a Jonás; y estuvo Jonás en el vientre del pez tres días y tres noches."
+            }
+        },
+        {
+            "id": "e19",
+            "category": "EASY",
+            "type": "CHARACTER",
+            "question": "¿Quién ordenó el censo que hizo que José y María fueran a Belén?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Herodes"
+                },
+                {
+                    "id": "b",
+                    "text": "César Augusto"
+                },
+                {
+                    "id": "c",
+                    "text": "Poncio Pilato"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Lucas",
+                "chapter": 2,
+                "verse": "1-3",
+                "text": "Aconteció en aquellos días, que se promulgó un edicto de parte de Augusto César, que todo el mundo fuese empadronado. Este primer censo se hizo siendo Cirenio gobernador de Siria. E iban todos para ser empadronados, cada uno a su ciudad."
+            }
+        },
+        {
+            "id": "e20",
+            "category": "EASY",
+            "type": "QUOTE",
+            "question": "¿Quién dijo: 'He aquí la sierva del Señor; hágase conmigo conforme a tu palabra'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Ana"
+                },
+                {
+                    "id": "b",
+                    "text": "Isabel"
+                },
+                {
+                    "id": "c",
+                    "text": "María"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Lucas",
+                "chapter": 1,
+                "verse": "38",
+                "text": "Entonces María dijo: He aquí la sierva del Señor; hágase conmigo conforme a tu palabra. Y el ángel se fue de su presencia."
+            }
+        },
+        {
+            "id": "m1",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el único juez mujer de Israel?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Débora"
+                },
+                {
+                    "id": "b",
+                    "text": "Rut"
+                },
+                {
+                    "id": "c",
+                    "text": "Ester"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Jueces",
+                "chapter": 4,
+                "verse": "4-5",
+                "text": "Gobernaba en aquel tiempo a Israel Débora, profetisa, mujer de Lapidot; y se sentaba bajo la palmera de Débora, entre Ramá y Bet-el, en el monte de Efraín; y los hijos de Israel subían a ella a juicio."
+            },
+            "explanation": "Débora fue la única juez mujer mencionada en la Biblia y también era profetisa. Bajo su liderazgo, Israel obtuvo una victoria importante contra los cananeos."
+        },
+        {
+            "id": "m2",
+            "category": "MEDIUM",
+            "type": "PLACE",
+            "question": "¿Dónde escribió el apóstol Juan el libro de Apocalipsis?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jerusalén"
+                },
+                {
+                    "id": "b",
+                    "text": "Roma"
+                },
+                {
+                    "id": "c",
+                    "text": "Isla de Patmos"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Apocalipsis",
+                "chapter": 1,
+                "verse": "9",
+                "text": "Yo Juan, vuestro hermano, y copartícipe vuestro en la tribulación, en el reino y en la paciencia de Jesucristo, estaba en la isla llamada Patmos, por causa de la palabra de Dios y el testimonio de Jesucristo."
+            }
+        },
+        {
+            "id": "m3",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Qué discípulo caminó sobre las aguas con Jesús?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Juan"
+                },
+                {
+                    "id": "b",
+                    "text": "Pedro"
+                },
+                {
+                    "id": "c",
+                    "text": "Santiago"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Mateo",
+                "chapter": 14,
+                "verse": "28-29",
+                "text": "Entonces le respondió Pedro, y dijo: Señor, si eres tú, manda que yo vaya a ti sobre las aguas. Y él dijo: Ven. Y descendiendo Pedro de la barca, andaba sobre las aguas para ir a Jesús."
+            }
+        },
+        {
+            "id": "m4",
+            "category": "MEDIUM",
+            "type": "QUOTE",
+            "question": "¿Quién dijo: 'Si Jehová no edificare la casa, en vano trabajan los que la edifican'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "David"
+                },
+                {
+                    "id": "b",
+                    "text": "Moisés"
+                },
+                {
+                    "id": "c",
+                    "text": "Salomón"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Salmos",
+                "chapter": 127,
+                "verse": "1",
+                "text": "Si Jehová no edificare la casa, en vano trabajan los que la edifican; si Jehová no guardare la ciudad, en vano vela la guardia."
+            },
+            "explanation": "Este salmo es atribuido a Salomón, quien reconoce la importancia de la bendición de Dios en todo esfuerzo humano."
+        },
+        {
+            "id": "m5",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién era el sumo sacerdote cuando David comió los panes de la proposición?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Caifás"
+                },
+                {
+                    "id": "b",
+                    "text": "Abiatar"
+                },
+                {
+                    "id": "c",
+                    "text": "Ahimelec"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "1 Samuel",
+                "chapter": 21,
+                "verse": "1-6",
+                "text": "Vino David a Nob, al sacerdote Ahimelec... Y el sacerdote respondió a David y dijo: No tengo pan común a la mano, solamente tengo pan sagrado... Y así el sacerdote le dio el pan sagrado."
+            }
+        },
+        {
+            "id": "m6",
+            "category": "MEDIUM",
+            "type": "PLACE",
+            "question": "¿En qué ciudad se reunió el primer concilio de la iglesia para discutir sobre la circuncisión?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jerusalén"
+                },
+                {
+                    "id": "b",
+                    "text": "Antioquía"
+                },
+                {
+                    "id": "c",
+                    "text": "Roma"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 15,
+                "verse": "1-2",
+                "text": "Entonces algunos que venían de Judea enseñaban a los hermanos: Si no os circuncidáis conforme al rito de Moisés, no podéis ser salvos... se dispuso que subiesen Pablo y Bernabé a Jerusalén, y algunos otros de ellos, a los apóstoles y a los ancianos, para tratar esta cuestión."
+            }
+        },
+        {
+            "id": "m7",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién era el rey de Salem que bendijo a Abraham?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Abimelec"
+                },
+                {
+                    "id": "b",
+                    "text": "Melquisedec"
+                },
+                {
+                    "id": "c",
+                    "text": "Amrafel"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Génesis",
+                "chapter": 14,
+                "verse": "18-19",
+                "text": "Entonces Melquisedec, rey de Salem y sacerdote del Dios Altísimo, sacó pan y vino; y le bendijo, diciendo: Bendito sea Abram del Dios Altísimo, creador de los cielos y de la tierra."
+            }
+        },
+        {
+            "id": "m8",
+            "category": "MEDIUM",
+            "type": "QUOTE",
+            "question": "¿Qué profeta dijo: 'He aquí que la virgen concebirá, y dará a luz un hijo'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Isaías"
+                },
+                {
+                    "id": "b",
+                    "text": "Jeremías"
+                },
+                {
+                    "id": "c",
+                    "text": "Ezequiel"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Isaías",
+                "chapter": 7,
+                "verse": "14",
+                "text": "Por tanto, el Señor mismo os dará señal: He aquí que la virgen concebirá, y dará a luz un hijo, y llamará su nombre Emanuel."
+            }
+        },
+        {
+            "id": "m9",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el padre del rey Salomón?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Saúl"
+                },
+                {
+                    "id": "b",
+                    "text": "David"
+                },
+                {
+                    "id": "c",
+                    "text": "Roboam"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "2 Samuel",
+                "chapter": 12,
+                "verse": "24",
+                "text": "Y consoló David a Betsabé su mujer, y llegándose a ella durmió con ella; y ella le dio a luz un hijo, y llamó su nombre Salomón, al cual amó Jehová."
+            }
+        },
+        {
+            "id": "m10",
+            "category": "MEDIUM",
+            "type": "PLACE",
+            "question": "¿En qué monte ofreció Abraham a Isaac?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Monte Sinaí"
+                },
+                {
+                    "id": "b",
+                    "text": "Monte Carmelo"
+                },
+                {
+                    "id": "c",
+                    "text": "Monte Moriah"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Génesis",
+                "chapter": 22,
+                "verse": "2",
+                "text": "Y dijo: Toma ahora tu hijo, tu único, Isaac, a quien amas, y vete a tierra de Moriah, y ofrécelo allí en holocausto sobre uno de los montes que yo te diré."
+            }
+        },
+        {
+            "id": "m11",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el último juez de Israel antes del período de los reyes?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Sansón"
+                },
+                {
+                    "id": "b",
+                    "text": "Samuel"
+                },
+                {
+                    "id": "c",
+                    "text": "Gedeón"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "1 Samuel",
+                "chapter": 7,
+                "verse": "15-17",
+                "text": "Y juzgó Samuel a Israel todo el tiempo que vivió. Y todos los años iba y daba vuelta a Bet-el, y a Gilgal y a Mizpa, y juzgaba a Israel en todos estos lugares."
+            }
+        },
+        {
+            "id": "m12",
+            "category": "MEDIUM",
+            "type": "QUOTE",
+            "question": "¿Qué profeta dijo: 'Pero yo y mi casa serviremos a Jehová'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Elías"
+                },
+                {
+                    "id": "b",
+                    "text": "Moisés"
+                },
+                {
+                    "id": "c",
+                    "text": "Josué"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Josué",
+                "chapter": 24,
+                "verse": "15",
+                "text": "Y si mal os parece servir a Jehová, escogeos hoy a quién sirváis... pero yo y mi casa serviremos a Jehová."
+            }
+        },
+        {
+            "id": "m13",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién era el tesorero de la reina Candace que fue evangelizado por Felipe?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Un etíope"
+                },
+                {
+                    "id": "b",
+                    "text": "Un egipcio"
+                },
+                {
+                    "id": "c",
+                    "text": "Un romano"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 8,
+                "verse": "27-28",
+                "text": "He aquí un etíope, eunuco, funcionario de Candace reina de los etíopes, el cual estaba sobre todos sus tesoros, y había venido a Jerusalén para adorar."
+            }
+        },
+        {
+            "id": "m14",
+            "category": "MEDIUM",
+            "type": "PLACE",
+            "question": "¿En qué ciudad estaban los discípulos cuando recibieron el Espíritu Santo en Pentecostés?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Belén"
+                },
+                {
+                    "id": "b",
+                    "text": "Jerusalén"
+                },
+                {
+                    "id": "c",
+                    "text": "Nazaret"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 2,
+                "verse": "1,5",
+                "text": "Cuando llegó el día de Pentecostés, estaban todos unánimes juntos... Moraban entonces en Jerusalén judíos, varones piadosos, de todas las naciones bajo el cielo."
+            }
+        },
+        {
+            "id": "m15",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el profeta que fue llevado al cielo en un torbellino?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Elías"
+                },
+                {
+                    "id": "b",
+                    "text": "Eliseo"
+                },
+                {
+                    "id": "c",
+                    "text": "Isaías"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "2 Reyes",
+                "chapter": 2,
+                "verse": "11",
+                "text": "Y aconteció que yendo ellos y hablando, he aquí un carro de fuego con caballos de fuego apartó a los dos; y Elías subió al cielo en un torbellino."
+            }
+        },
+        {
+            "id": "m16",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el juez que hizo un voto a Dios que resultó en el sacrificio de su hija?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jefté"
+                },
+                {
+                    "id": "b",
+                    "text": "Gedeón"
+                },
+                {
+                    "id": "c",
+                    "text": "Sansón"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Jueces",
+                "chapter": 11,
+                "verse": "30-31, 34-35",
+                "text": "Y Jefté hizo voto a Jehová, diciendo: Si entregares a los amonitas en mis manos... Y al regresar Jefté a Mizpa, he aquí su hija que salía a recibirle... y él rasgó sus vestidos, diciendo: ¡Ay, hija mía!"
+            }
+        },
+        {
+            "id": "m17",
+            "category": "MEDIUM",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el profeta que hizo flotar un hacha en el agua?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Elías"
+                },
+                {
+                    "id": "b",
+                    "text": "Eliseo"
+                },
+                {
+                    "id": "c",
+                    "text": "Jeremías"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "2 Reyes",
+                "chapter": 6,
+                "verse": "5-7",
+                "text": "Y aconteció que mientras uno derribaba un árbol, se le cayó el hacha en el agua... Entonces el varón de Dios dijo: ¿Dónde cayó? Y él le mostró el lugar. Entonces cortó un palo, y lo echó allí, e hizo flotar el hierro."
+            }
+        },
+        {
+            "id": "m18",
+            "category": "MEDIUM",
+            "type": "QUOTE",
+            "question": "¿Quién dijo: 'Yo sé que mi Redentor vive, y al fin se levantará sobre el polvo'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Job"
+                },
+                {
+                    "id": "b",
+                    "text": "David"
+                },
+                {
+                    "id": "c",
+                    "text": "Isaías"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Job",
+                "chapter": 19,
+                "verse": "25",
+                "text": "Yo sé que mi Redentor vive, y al fin se levantará sobre el polvo."
+            }
+        },
+        {
+            "id": "m19",
+            "category": "MEDIUM",
+            "type": "CHARACTERISTICS",
+            "question": "¿Qué rey de Judá enfermó gravemente de los pies y en su enfermedad no buscó a Dios, sino a los médicos?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Asa"
+                },
+                {
+                    "id": "b",
+                    "text": "Acaz"
+                },
+                {
+                    "id": "c",
+                    "text": "Josafat"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "2 Crónicas",
+                "chapter": 16,
+                "verse": "12",
+                "text": "En el año treinta y nueve de su reinado, Asa enfermó gravemente de los pies; y en su enfermedad no buscó a Jehová, sino a los médicos."
+            }
+        },
+        {
+            "id": "m20",
+            "category": "MEDIUM",
+            "type": "BOOK",
+            "question": "¿Cuál de estos libros es considerado parte de la literatura poética en el Antiguo Testamento?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Proverbios"
+                },
+                {
+                    "id": "b",
+                    "text": "Deuteronomio"
+                },
+                {
+                    "id": "c",
+                    "text": "Daniel"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Información General",
+                "chapter": "",
+                "verse": "",
+                "text": "El libro de Proverbios es uno de los libros poéticos y de sabiduría en el Antiguo Testamento."
+            }
+        },
+        {
+            "id": "d1",
+            "category": "HARD",
+            "type": "CHARACTER",
+            "question": "¿Quién interpretó la escritura en la pared durante el banquete del rey Belsasar?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Ezequiel"
+                },
+                {
+                    "id": "b",
+                    "text": "Daniel"
+                },
+                {
+                    "id": "c",
+                    "text": "Jeremías"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Daniel",
+                "chapter": 5,
+                "verse": "25-28",
+                "text": "Esta es la escritura que fue trazada: MENE, MENE, TEKEL, UPARSIN. Ésta es la interpretación del asunto..."
+            }
+        },
+        {
+            "id": "d2",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿En qué libro se narra la historia de la vara florecida de Aarón?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Éxodo"
+                },
+                {
+                    "id": "b",
+                    "text": "Levítico"
+                },
+                {
+                    "id": "c",
+                    "text": "Números"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Números",
+                "chapter": 17,
+                "verse": "8",
+                "text": "Y aconteció que al día siguiente vino Moisés al tabernáculo del testimonio, y he aquí que la vara de Aarón... había reverdecido."
+            }
+        },
+        {
+            "id": "d3",
+            "category": "HARD",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el padre de Josué, el sucesor de Moisés?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Caleb"
+                },
+                {
+                    "id": "b",
+                    "text": "Hur"
+                },
+                {
+                    "id": "c",
+                    "text": "Nun"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "Éxodo",
+                "chapter": 33,
+                "verse": "11",
+                "text": "Y hablaba Jehová a Moisés cara a cara... pero su joven ayudante Josué hijo de Nun nunca se apartaba de en medio del tabernáculo."
+            }
+        },
+        {
+            "id": "d4",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿En qué ciudad fueron llamados 'cristianos' por primera vez los discípulos de Jesús?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jerusalén"
+                },
+                {
+                    "id": "b",
+                    "text": "Antioquía"
+                },
+                {
+                    "id": "c",
+                    "text": "Éfeso"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 11,
+                "verse": "26",
+                "text": "Y a los discípulos se les llamó cristianos por primera vez en Antioquía."
+            }
+        },
+        {
+            "id": "d5",
+            "category": "HARD",
+            "type": "CHARACTER",
+            "question": "¿Qué rey consultó a una adivina en Endor antes de su muerte?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Salomón"
+                },
+                {
+                    "id": "b",
+                    "text": "David"
+                },
+                {
+                    "id": "c",
+                    "text": "Saúl"
+                }
+            ],
+            "correctAnswer": "c",
+            "biblicalReference": {
+                "book": "1 Samuel",
+                "chapter": 28,
+                "verse": "7",
+                "text": "Entonces Saúl dijo a sus criados: Buscadme una mujer que tenga espíritu de adivinación..."
+            }
+        },
+        {
+            "id": "d6",
+            "category": "HARD",
+            "type": "PROPHECY",
+            "question": "¿Quién profetizó sobre el valle de los huesos secos?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Isaías"
+                },
+                {
+                    "id": "b",
+                    "text": "Ezequiel"
+                },
+                {
+                    "id": "c",
+                    "text": "Jeremías"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Ezequiel",
+                "chapter": 37,
+                "verse": "1-14",
+                "text": "La mano de Jehová vino sobre mí... y me puso en medio de un valle que estaba lleno de huesos."
+            }
+        },
+        {
+            "id": "d7",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿Qué juez hizo un voto imprudente que resultó en el sacrificio de su hija?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Gedeón"
+                },
+                {
+                    "id": "b",
+                    "text": "Jefté"
+                },
+                {
+                    "id": "c",
+                    "text": "Sansón"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Jueces",
+                "chapter": 11,
+                "verse": "30-39",
+                "text": "Y Jefté hizo voto a Jehová, diciendo: Si entregares a los amonitas en mis manos..."
+            }
+        },
+        {
+            "id": "d8",
+            "category": "HARD",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el escriba que lideró un retorno de exiliados a Jerusalén y promovió la observancia de la ley?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Esdras"
+                },
+                {
+                    "id": "b",
+                    "text": "Nehemías"
+                },
+                {
+                    "id": "c",
+                    "text": "Zorobabel"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Esdras",
+                "chapter": 7,
+                "verse": "6",
+                "text": "Este Esdras subió de Babilonia; era escriba diligente en la ley de Moisés..."
+            }
+        },
+        {
+            "id": "d9",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿Qué profeta hizo flotar un hacha que había caído al agua?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Elías"
+                },
+                {
+                    "id": "b",
+                    "text": "Eliseo"
+                },
+                {
+                    "id": "c",
+                    "text": "Samuel"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "2 Reyes",
+                "chapter": 6,
+                "verse": "5-7",
+                "text": "Y aconteció que mientras uno derribaba un árbol, se le cayó el hacha al agua... Y el hombre de Dios dijo: ¿Dónde cayó?"
+            }
+        },
+        {
+            "id": "d10",
+            "category": "HARD",
+            "type": "PROPHECY",
+            "question": "¿Qué profeta casó con una prostituta como símbolo de la infidelidad de Israel?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Oseas"
+                },
+                {
+                    "id": "b",
+                    "text": "Amós"
+                },
+                {
+                    "id": "c",
+                    "text": "Miqueas"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Oseas",
+                "chapter": 1,
+                "verse": "2",
+                "text": "Ve, tómate una mujer fornicaria e hijos de fornicación..."
+            }
+        },
+        {
+            "id": "d11",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿Qué rey de Judá extendió su vida 15 años más tras orar a Dios?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Ezequías"
+                },
+                {
+                    "id": "b",
+                    "text": "Josías"
+                },
+                {
+                    "id": "c",
+                    "text": "Manasés"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Isaías",
+                "chapter": 38,
+                "verse": "5",
+                "text": "He oído tu oración y visto tus lágrimas; he aquí que añadiré a tus días quince años."
+            }
+        },
+        {
+            "id": "d12",
+            "category": "HARD",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el primer mártir cristiano según el Nuevo Testamento?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Esteban"
+                },
+                {
+                    "id": "b",
+                    "text": "Santiago"
+                },
+                {
+                    "id": "c",
+                    "text": "Pedro"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 7,
+                "verse": "59-60",
+                "text": "Y apedreaban a Esteban mientras él invocaba y decía: Señor Jesús, recibe mi espíritu."
+            }
+        },
+        {
+            "id": "d13",
+            "category": "HARD",
+            "type": "PROPHECY",
+            "question": "¿Quién profetizó sobre el siervo sufriente que sería 'herido por nuestras transgresiones'?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jeremías"
+                },
+                {
+                    "id": "b",
+                    "text": "Isaías"
+                },
+                {
+                    "id": "c",
+                    "text": "Daniel"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Isaías",
+                "chapter": 53,
+                "verse": "5",
+                "text": "Mas él herido fue por nuestras rebeliones, molido por nuestros pecados..."
+            }
+        },
+        {
+            "id": "d14",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿Qué apóstol tuvo una visión de un lienzo que descendía del cielo con animales impuros?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Juan"
+                },
+                {
+                    "id": "b",
+                    "text": "Pedro"
+                },
+                {
+                    "id": "c",
+                    "text": "Santiago"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 10,
+                "verse": "11-13",
+                "text": "Y vio el cielo abierto, y que descendía algo semejante a un gran lienzo..."
+            }
+        },
+        {
+            "id": "d15",
+            "category": "HARD",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el profeta que confrontó al rey David por su pecado con Betsabé?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Natán"
+                },
+                {
+                    "id": "b",
+                    "text": "Gad"
+                },
+                {
+                    "id": "c",
+                    "text": "Samuel"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "2 Samuel",
+                "chapter": 12,
+                "verse": "7",
+                "text": "Entonces dijo Natán a David: Tú eres aquel hombre..."
+            }
+        },
+        {
+            "id": "d16",
+            "category": "HARD",
+            "type": "PROPHECY",
+            "question": "¿En qué libro se encuentra la profecía del 'Hijo del Hombre' que vendría en las nubes del cielo?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Ezequiel"
+                },
+                {
+                    "id": "b",
+                    "text": "Daniel"
+                },
+                {
+                    "id": "c",
+                    "text": "Isaías"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Daniel",
+                "chapter": 7,
+                "verse": "13",
+                "text": "Miraba yo en la visión de la noche, y he aquí con las nubes del cielo venía uno como un hijo de hombre..."
+            }
+        },
+        {
+            "id": "d17",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿Quién escribió el Salmo 90, el único salmo atribuido a él?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "David"
+                },
+                {
+                    "id": "b",
+                    "text": "Moisés"
+                },
+                {
+                    "id": "c",
+                    "text": "Asaf"
+                }
+            ],
+            "correctAnswer": "b",
+            "biblicalReference": {
+                "book": "Salmos",
+                "chapter": 90,
+                "verse": "Título",
+                "text": "Oración de Moisés, varón de Dios."
+            }
+        },
+        {
+            "id": "d18",
+            "category": "HARD",
+            "type": "CHARACTER",
+            "question": "¿Quién fue el general sirio que se curó de la lepra sumergiéndose siete veces en el Jordán?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Naamán"
+                },
+                {
+                    "id": "b",
+                    "text": "Ben-adad"
+                },
+                {
+                    "id": "c",
+                    "text": "Hazael"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "2 Reyes",
+                "chapter": 5,
+                "verse": "14",
+                "text": "Entonces él descendió, y se zambulló siete veces en el Jordán... y su carne se volvió como la carne de un niño."
+            }
+        },
+        {
+            "id": "d19",
+            "category": "HARD",
+            "type": "PROPHECY",
+            "question": "¿Qué libro profético habla de un futuro pacto nuevo escrito en los corazones?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Jeremías"
+                },
+                {
+                    "id": "b",
+                    "text": "Ezequiel"
+                },
+                {
+                    "id": "c",
+                    "text": "Isaías"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Jeremías",
+                "chapter": 31,
+                "verse": "31-33",
+                "text": "He aquí que vienen días, dice Jehová, en los cuales haré nuevo pacto con la casa de Israel..."
+            }
+        },
+        {
+            "id": "d20",
+            "category": "HARD",
+            "type": "EVENT",
+            "question": "¿Quién cayó desde una ventana mientras Pablo predicaba y luego fue resucitado?",
+            "options": [
+                {
+                    "id": "a",
+                    "text": "Eutico"
+                },
+                {
+                    "id": "b",
+                    "text": "Tíquico"
+                },
+                {
+                    "id": "c",
+                    "text": "Trófimo"
+                }
+            ],
+            "correctAnswer": "a",
+            "biblicalReference": {
+                "book": "Hechos",
+                "chapter": 20,
+                "verse": "9-10",
+                "text": "Y un joven llamado Eutico... cayó del tercer piso abajo, y fue levantado muerto."
+            }
+        }
+    ]
+}
