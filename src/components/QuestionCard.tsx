@@ -173,16 +173,19 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
           className="flex items-center justify-between mb-8"
         >
           <div className="flex items-center space-x-4">
-            <span className="text-5xl">{typeConfig[question.type].emoji}</span>
+            <span className="text-5xl">
+              {typeConfig[question.type]?.emoji ?? "📖"}
+            </span>
             <span className="text-xl text-purple-200">
-              {typeConfig[question.type].label}
+              {typeConfig[question.type]?.label ?? ""}
             </span>
           </div>
 
           <div className="flex items-center space-x-3">
             <DifficultyIcon
               className={`w-6 h-6 ${
-                difficultyConfig[question.category].textColor
+                difficultyConfig[question.category]?.textColor ??
+                "text-purple-400"
               }`}
             />
             <span

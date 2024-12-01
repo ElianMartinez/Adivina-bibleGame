@@ -125,6 +125,7 @@ export function useGameLogic(): GameLogicReturn {
         const shuffledQuestions = [...data.questions].sort(
           () => Math.random() - 0.5
         );
+
         setQuestions(shuffledQuestions);
       } catch (error) {
         console.error("Error loading questions:", error);
@@ -176,34 +177,95 @@ export function useGameLogic(): GameLogicReturn {
   // Obtener siguiente pregunta disponible
   const getNextQuestion = useCallback(
     (teamId: string): Question | undefined => {
-      if (!questions.length || !gameState.teams?.[teamId]) return undefined;
+      // Validaciones iniciales
+      if (!questions.length || !gameState.teams?.[teamId]) {
+        console.log("No hay preguntas disponibles o el equipo no existe");
+        return undefined;
+      }
 
       const team = gameState.teams[teamId];
 
-      // Filtramos las preguntas disponibles
-      const availableQuestions = questions.filter((q) => {
-        // La pregunta no debe haber sido usada por ningún equipo
-        if (usedQuestionIds.has(q.id)) {
-          return false;
+      // Verificamos el total de preguntas respondidas
+      const totalAnswered = Object.values(team.questionsAnswered).reduce(
+        (sum, count) => sum + count,
+        0
+      );
+
+      // Si ya respondió 30 preguntas, terminamos
+      if (totalAnswered >= 30) {
+        console.log(`El equipo ${teamId} ya completó sus 30 preguntas`);
+        return undefined;
+      }
+
+      // Obtenemos todas las preguntas que no han sido usadas
+      const unusedQuestions = questions.filter(
+        (q) => !usedQuestionIds.has(q.id)
+      );
+
+      if (unusedQuestions.length === 0) {
+        console.log("No hay más preguntas disponibles");
+        return undefined;
+      }
+
+      // Intentamos primero obtener una pregunta de la categoría ideal
+      let selectedQuestion: Question | undefined;
+
+      // Primero intentamos mantener el balance ideal (10 de cada categoría)
+      const categoryBalances = {
+        EASY: 10 - (team.questionsAnswered.easy || 0),
+        MEDIUM: 10 - (team.questionsAnswered.medium || 0),
+        HARD: 10 - (team.questionsAnswered.hard || 0),
+      };
+
+      // Filtramos las categorías que aún necesitan preguntas
+      const availableCategories = Object.entries(categoryBalances)
+        .filter(([_, remaining]) => remaining > 0)
+        .map(([category]) => category as "EASY" | "MEDIUM" | "HARD");
+
+      if (availableCategories.length > 0) {
+        // Intentamos obtener una pregunta de las categorías disponibles
+        const availableQuestions = unusedQuestions.filter((q) =>
+          availableCategories.includes(q.category)
+        );
+
+        if (availableQuestions.length > 0) {
+          const randomIndex = Math.floor(
+            Math.random() * availableQuestions.length
+          );
+          selectedQuestion = availableQuestions[randomIndex];
         }
+      }
 
-        // Verificamos que no hayamos alcanzado el límite de preguntas para esta categoría
-        const category =
-          q.category.toLowerCase() as keyof typeof team.questionsAnswered;
-        const answeredCount = team.questionsAnswered[category] || 0;
-        const maxQuestions = GAME_CONFIG.QUESTIONS_PER_DIFFICULTY[q.category];
+      // Si no encontramos una pregunta manteniendo el balance,
+      // simplemente tomamos cualquier pregunta no usada
+      if (!selectedQuestion && unusedQuestions.length > 0) {
+        console.log(
+          "Usando pregunta de categoría alternativa por falta de disponibilidad"
+        );
+        const randomIndex = Math.floor(Math.random() * unusedQuestions.length);
+        selectedQuestion = unusedQuestions[randomIndex];
+      }
 
-        return answeredCount < maxQuestions;
+      if (!selectedQuestion) {
+        console.log("No se pudo encontrar una pregunta válida");
+        return undefined;
+      }
+
+      // Registramos la pregunta como usada
+      setUsedQuestionIds((prev) => new Set([...prev, selectedQuestion!.id]));
+
+      // Log del progreso actual
+      console.log(`Pregunta seleccionada para ${teamId}:`, {
+        category: selectedQuestion.category,
+        id: selectedQuestion.id,
+        preguntasRespondidasPorCategoria: {
+          EASY: team.questionsAnswered.easy || 0,
+          MEDIUM: team.questionsAnswered.medium || 0,
+          HARD: team.questionsAnswered.hard || 0,
+        },
+        preguntasRestantesPorCategoria: categoryBalances,
+        totalPreguntas: totalAnswered,
       });
-
-      if (availableQuestions.length === 0) return undefined;
-
-      // Seleccionamos una pregunta aleatoria
-      const randomIndex = Math.floor(Math.random() * availableQuestions.length);
-      const selectedQuestion = availableQuestions[randomIndex];
-
-      // Marcamos la pregunta como usada globalmente
-      setUsedQuestionIds((prev) => new Set([...prev, selectedQuestion.id]));
 
       return selectedQuestion;
     },
